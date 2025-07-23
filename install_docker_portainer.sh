@@ -4,7 +4,7 @@
 # أعد كتابته: أحمد داود
 
 echo "🔧 تحديث النظام..."
-sudo apt update && sudo apt upgrade -y
+sudo apt update && sudo apt list --upgradable && sudo apt upgrade -y
 
 echo "🐳 تثبيت Docker..."
 curl -fsSL https://get.docker.com -o get-docker.sh
