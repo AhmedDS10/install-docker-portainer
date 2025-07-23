@@ -5,7 +5,7 @@
 ## ✅ الخطوة 1: تحديث النظام
 
 ```bash
-sudo apt update && sudo apt upgrade -y
+sudo apt update && sudo apt list --upgradable && sudo apt upgrade -y
 ```
 
 ---
